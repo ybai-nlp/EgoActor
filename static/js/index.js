@@ -128,7 +128,7 @@ $(document).ready(function() {
 		loop: true,
 		infinite: true,
 		autoplay: true,
-		autoplaySpeed: 5000,
+		autoplaySpeed: 30000,
     }
 
 	// Initialize all div with carousel class
@@ -137,6 +137,6 @@ $(document).ready(function() {
     bulmaSlider.attach();
     
     // Setup video autoplay for carousel
-    // setupVideoCarouselAutoplay();
+    setupVideoCarouselAutoplay();
 
 })
