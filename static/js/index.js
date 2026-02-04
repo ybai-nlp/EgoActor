@@ -137,6 +137,6 @@ $(document).ready(function() {
     bulmaSlider.attach();
     
     // Setup video autoplay for carousel
-    setupVideoCarouselAutoplay();
+    // setupVideoCarouselAutoplay();
 
 })
